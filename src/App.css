@@ -1,0 +1,98 @@
+.new-btn, .input-btn {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 1.5em;
+  background-color: #FFFFFF;
+  color: #060b26;
+  border: 1px solid #060b26;
+
+  
+}
+
+
+.color-nav {
+  background-color: #2e2be2;
+}
+
+form {
+  border: 1px solid #060b26;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+label {
+  width: 200px;
+}
+
+.formQ {
+  margin: 10px;
+}
+
+.formQ>input {
+  margin-left: 50px;
+}
+
+@media screen and (max-width:1000px) {
+  form {
+      text-align: center;
+  }
+  .formQ>input {
+      margin-left: 0;
+  }
+}
+
+
+.new-btn, .input-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4a2fc2;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px rgb(28, 40, 150);
+    
+}
+
+.new-btn:hover, .input-btn:hover{
+    border: 1px solid #593ae0;
+    color: #593ae0;
+    background-color: #ffffff;
+}
+
+
+form {
+    border: 1px solid #c4b4d6;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+label {
+    width: 200px;
+}
+
+.formQ {
+    margin: 10px;
+}
+
+.formQ>input {
+    margin-left: 50px;
+    border: 2px solid hsl(213, 18%, 90%);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+@media screen and (max-width:1000px) {
+    form {
+        text-align: center;
+    }
+    .formQ>input {
+        margin-left: 0;
+    }
+}
